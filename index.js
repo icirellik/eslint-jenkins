@@ -34,7 +34,7 @@ module.exports = function(results) {
         var messages = result.messages;
 
         if (messages.length) {
-            output += "<testsuite package=\"org.eslint\" time=\"0\" tests=\"" + messages.length + "\" warnings=\"" + messages.warningCount + "\" errors=\"" + messages.errorCount + "\" name=\"" + result.filePath + "\">\n";
+            output += "<testsuite package=\"org.eslint\" time=\"0\" tests=\"" + messages.length + "\" warnings=\"" + result.warningCount + "\" errors=\"" + result.errorCount + "\" name=\"" + result.filePath + "\">\n";
         }
 
         messages.forEach(function(message) {

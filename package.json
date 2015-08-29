@@ -1,0 +1,22 @@
+{
+  "name": "eslint-jenkins",
+  "version": "1.0.1",
+  "description": "A better junit reporter for jenkins",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/icirellik/eslint-jenkns.git"
+  },
+  "author": "Cameron Rollheiser <icirellik@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/icirellik/eslint-jenkns/issues"
+  },
+  "homepage": "https://github.com/icirellik/eslint-jenkns#readme",
+  "dependencies": {
+    "xml-escape": "^1.0.0"
+  }
+}
